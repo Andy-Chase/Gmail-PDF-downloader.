@@ -49,6 +49,22 @@ Before you begin, ensure you have met the following requirements:
   * Click "Create" and download the `credentials.json` file.
   * Move the `credentials.json` file into the project directory.
 
+## Adding Yourself as a Tester
+
+  If you receive an error message that says the app has not completed the Google verification process, you can add yourself as a tester for the Gmail       Invoice Downloader by following these steps:
+
+  1. Go to the [Google Cloud Console](https://console.developers.google.com/).
+
+  2. Select your project from the project dropdown menu.
+
+  3. Click on "OAuth consent screen" in the APIs & Services section.
+
+  4. In the "Test users" section, click "Add Users".
+
+  5. Enter your Google email address and click "Add".
+
+  Now you should be able to authenticate and use the Gmail Invoice Downloader without encountering the error.
+
 ## Usage
 
 To use Gmail Invoice Downloader, follow these steps:
